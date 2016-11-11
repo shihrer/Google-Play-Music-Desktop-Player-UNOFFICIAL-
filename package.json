@@ -118,7 +118,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-header": "^1.8.2",
-    "gulp-less": "^3.1.0",
+    "gulp-less": "^3.3.0",
     "gulp-replace": "^0.5.4",
     "gulp-uglify": "^2.0.0",
     "icon-gen": "^1.0.5",
