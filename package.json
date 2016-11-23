@@ -79,7 +79,7 @@
     "react-tap-event-plugin": "^2.0.1",
     "request": "^2.72.0",
     "runas": "^3.1.1",
-    "universal-analytics": "^0.4.2",
+    "universal-analytics": "^0.4.8",
     "username": "^2.2.2",
     "uuid": "^2.0.2",
     "winston": "^2.2.0",
