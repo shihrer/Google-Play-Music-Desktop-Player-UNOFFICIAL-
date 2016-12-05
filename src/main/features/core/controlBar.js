@@ -23,8 +23,7 @@ mainWindow.on('close', (event) => {
   if ((Settings.get('minToTray', true) || process.platform === 'darwin') && !global.quitting) {
     global.wasMaximized = Settings.get('maximized', false);
     if (process.platform !== 'darwin') {
-      mainWindow.minimize();
-      mainWindow.setSkipTaskbar(true);
+      mainWindow.hide();
     } else {
       if (PlaybackAPI.isPlaying() && !Settings.get('minToTray', true)) {
         Emitter.sendToGooglePlayMusic('playback:playPause');
